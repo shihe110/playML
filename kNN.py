@@ -7,7 +7,8 @@ class KNNClassifier:
 
     def __init__(self, k):
         """初始化knn分类器"""
-        assert k>=1, "k must be valid"
+        assert k >= 1, "k must be valid"
+
         self.k = k
         self._X_train = None
         self._y_train = None
